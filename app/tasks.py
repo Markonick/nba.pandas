@@ -3,7 +3,7 @@ from parser import Parser
 
 
 celery = Celery()
-celery.config_from_object('celeryconfig')
+celery.config_from_object('celery_config')
 
 
 @app.task
